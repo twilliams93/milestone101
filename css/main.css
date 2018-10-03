@@ -1,0 +1,225 @@
+body{
+	font-family: 'Open Sans','Source Sans Pro','Libre Baskerville', sans-serif;
+	color: #f2f2f2;
+}
+/**grid**/
+.full-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+.half-width{
+	width: 600px;
+	float: left;
+}
+.dark{
+	background: #fbaf11;
+	color:#095156;
+	margin-top: 10px;
+	margin-bottom:10px;
+	padding: 15px;
+}
+/**header**/
+header{
+	height: 800px;
+	background: url('../img/hera.png');
+	background-size: cover;
+}
+header h1{
+	color: #fbaf11;
+	float: left;
+	font-weight: bold;
+	font-size: 24px;
+	text-shadow: 1px 1px 1px #095156;
+}
+nav{
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	color: #3c5471;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-left: 80px;
+}
+
+header a:hover{
+	color:#fbaf11;
+	font-weight:bold;
+}
+
+header h2{
+	width: 1000px;
+	clear: both;
+	color: #3c5471;
+	float: right;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 72px;
+	line-height: 80px;
+	margin-bottom: 30px;
+	padding: 20px 0 20px 25px;
+	text-align: center;
+} 
+header p{
+	width: 1000px;
+	clear: both;
+	color: #095156;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	padding-top: 200px;
+	text-align: center;
+}
+header p span{
+	color: #fbaf11;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #095156;
+}
+/**work**/
+#work{
+	background-color: #f2f2f2;
+}
+#work{
+	height:1450px;
+}
+#work .full-width{
+	padding: 135px 0px 300px 0px;
+}
+#work h3{
+	color: #095156;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: -100px;
+	text-align: center;
+	width:1200px;
+}
+#work .rogue img .rogue-thumbnail{
+	border:1px solid #bfbfbf;
+	float:left;
+	margin-left: 25px;
+	padding-bottom:30px;
+	width:600px;
+}
+
+#work .jubilee img .jubilee-thumbnail{
+	border:1px solid #bfbfbf;
+	float:left;
+	margin-left: 25px;
+	width:600px;
+}
+
+#work .holstee img .holstee-thumbnail{
+	border:1px solid #bfbfbf;
+	clear:both;
+	margin-left: 25px;
+	padding-bottom:30px;
+	width:600px;
+}
+#work h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #095156;
+	line-height: 24px;
+	width: 600px;
+	margin:0 auto;
+}
+#work p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: #095156;
+	line-height:24px;
+	width: 600px;
+	padding: 15px;
+}
+/**about **/
+#about{
+	background: #ffffff;
+}
+#about{
+	height: 500px;
+}
+#about.full-width{
+	padding: 0 0 0 0;
+}
+#about h3{
+	color: #095156;
+	font-family: 'Libre Baskerville', serif;
+	font-size:24px;
+	font-weight: bold;
+}
+
+#about.about img. about-me{
+	margin-left: 25px;
+	width: 600px;
+	padding-top: 10px;
+}
+#about h4{
+	color: #095156;
+	font-family: 'Libre Baskerville', serif;
+	font-size:24px;
+	font-weight: bold;
+}
+#about p {
+	color: #095156;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	line-height: normal;
+}
+/**contact**/
+#contact{
+	background:#f2f2f2;
+}
+#contact{
+	height: 350px;
+}
+#contact .full-width{
+	padding: 20px 0;	
+}
+#contact h3{
+	color: #095156;
+	font-family: 'Open Sans', sans-serif;
+	font-size:24px;
+	font-weight: 600;
+	text-align: center;
+}
+#contact p{
+	color:#095156;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+#contact h4{
+	color: #095156;
+	font-family:'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#contact ul{
+	list-style:none;
+}
+#contact ul li{
+	display:inline-block;
+}
+
+#contact p{
+	color:#095156;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-style: italic;
+}
+/**footer**/
+footer{
+	background: #3c5471;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fbaf11;
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+}
